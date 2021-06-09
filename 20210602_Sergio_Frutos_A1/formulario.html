@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  href="//fonts.googleapis.com/css?family=Lobster:regular&subset=latin" rel="stylesheet" type="text/css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/Actividad3.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Datos</legend>
+                <label for="correo">CORREO</label>
+                    <input required type="email" id="correo" name="correo">
+                    <br>
+                    <br>
+                        <label for="contraseña">CONTRASEÑA</label>
+                            <input required type="password" id="contraseña" name="contraseña">
+                    <br>
+                    <br>
+                    <label>PAIS:</label>
+                        <input list="pais" name="pais" id="paises"></label>
+                            <datalist id="pais">
+                                <option value="ESPAÑA">
+                                <option value="ITALIA">
+                                <option value="ALEMANIA">
+                                <option value="FRANCIA">
+                            </datalist>
+                        <br>
+                    
+                    
+                    <br>
+                    <label>RECOGIDA</label><br>
+                        <input type="radio" id="cursos" name="curso" value="informatica"></input>
+                    <label for="informatica">ESTANDAR</label><br>
+                        <input type="radio" id="cursos" name="curso" value="contabilidad"></input>
+                    <label for="contabilidad">URGENTE</label><br>
+                        <input type="radio" id="cursos" name="curso" value="derecho"></input>
+                    <label for="derecho">RECOGIDA EN TIENDA</label><br>
+                    
+                    <br>
+                    <label>INICIO CURSO</label>
+                        <input type="date" id="calendario" name="calendario" value="2018-07-22" min="2021-01-01" max="2028-12-31">
+                    <br>
+                    <br>
+                    <label>Acepto la politica de privacidad</label>
+                        <input type="checkbox" id="validar">
+            <br>
+            <br>
+            <input type="button" class="btn btn-primary" value="Enviar">
+                
+        </fieldset>
+        
+    </form>
+</body>
+</html>

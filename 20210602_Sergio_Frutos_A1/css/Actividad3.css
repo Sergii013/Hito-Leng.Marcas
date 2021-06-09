@@ -1,0 +1,15 @@
+body{
+    background-color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+input[type=email]{
+    border: 1px solid rgb(15, 15, 214);
+    border-radius: 10%;
+    box-sizing: border-box;
+}
+
+fieldset{
+    width: 50%;
+}
